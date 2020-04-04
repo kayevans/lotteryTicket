@@ -1,0 +1,48 @@
+// remove default spacing
+*,
+h1{
+    margin: 0;
+    padding: 0;
+}
+
+// set base font size
+html {
+    font-size: 62.5%;
+}
+
+// remove list styles
+ul{
+    list-style-type: none;
+}
+
+// set default image styles
+img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+// wrapper styles
+.wrapper{
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+// default font styles
+body{
+    background-color: $baseColour;
+    font-family: $mainFont;
+    line-height: 1.5;
+    font-size: 2rem;
+}
+
+// heading heirarchy
+h2{
+    font-family: $bodyFont;
+    text-transform: lowercase;
+    line-height: 1.2;
+    letter-spacing: 0.3rem;
+    color: $headingColour;
+}
+

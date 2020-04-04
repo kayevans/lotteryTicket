@@ -1,0 +1,58 @@
+@media (max-width: 768px){
+
+    //              HEADER STYLES
+    header{
+        img{
+            width: 100%;
+            margin: 0 auto;
+        }
+    }
+
+
+    //              TICKET STYLES
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+        // li styles, add spacing
+        li{
+            margin: 0 10px 50px;
+        }
+    
+    }
+}
+
+@media (max-width: 500px){
+
+    //              HEADER STYLES
+    header{
+        padding: 120px 0 60px;
+
+        // hide desktop logo
+        .desktopLogo{
+            display: none;
+        }
+
+        .mobileLogo{
+            display: block;
+        }
+    }
+
+
+    //              TICKET STYLES
+
+    // make them wrap, and add different spacing
+    ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    
+        // space out the numbers
+        li{
+            margin: 0 10px 50px;
+
+        }
+    
+    }
+}

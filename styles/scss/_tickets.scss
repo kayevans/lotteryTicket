@@ -1,0 +1,41 @@
+//                              OVERALL STYLES
+
+// section styles
+section{
+    padding: 20px 0 60px;
+}
+
+// h2 styles
+h2{
+    font-size: 2.4rem;
+    padding-bottom: 40px;
+}
+
+// list styles
+ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    // li styles, make them look like circles
+    li{
+        font-size: 4rem;
+        color: $headingColour;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $number;
+        box-shadow: 8px 8px 8px 0px rgba(0,0,0,0.4);
+        height: 100px;
+        width: 100px;
+        border-radius: 100%;
+    }
+
+}
+
+// styles for when they match
+.match{
+    color: $winningFont;
+    background-color: $winningNumber;
+}

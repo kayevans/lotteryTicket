@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon">
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/490d4ebda7.js" crossorigin="anonymous"></script>
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600&family=Spicy+Rice&display=swap" rel="stylesheet">
+    <!-- css -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>Lottery Ticket</title>
+</head>
+<body>
+
+    <!-- header begins -->
+    <header>
+        <div class="wrapper">
+            <h1 class="sr-only">feelin' lucky?</h1>
+            <img src="./assets/logo-01.png" alt="feelin' luck?" title="feelin' lucky?" class="desktopLogo">
+            <img src="./assets/logoMobile-02.png" alt="feelin' luck?" title="feelin' lucky?" class="mobileLogo">
+            <button class="refresh" aria-label="Click to refresh"><i aria-hidden="true" class="fas fa-redo-alt"></i></button>
+        </div>
+    </header>
+    <!-- header ends -->
+
+    <!-- main content -->
+    <main>
+        <div class="wrapper">
+            <section class="winningTicket">
+                <h2>Winning ticket:</h2>
+                <!-- numbers will be added dynamically -->
+                <ul class="winningNumbers">
+
+                </ul>
+            </section>
+            <section class="yourTicket">
+                <h2>Your ticket:</h2>
+                <!-- numbers will be added dynamically -->
+                <ul class="yourNumbers">
+
+                </ul>
+            </section>
+        </div>
+    </main>
+    <!-- main content ends -->
+
+
+    <!-- jquery -->
+    <script src='https://code.jquery.com/jquery-3.4.0.min.js' integrity='sha256-BJeo0qm959uMBGb65z40ejJYGSgR7REI4+CW1fNKwOg=' crossorigin='anonymous'></script>
+
+    <!-- my js -->
+    <script src="./scripts/scripts.js"></script>
+    
+</body>
+</html>
